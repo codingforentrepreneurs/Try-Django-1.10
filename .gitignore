@@ -3,3 +3,4 @@ bin/
 include/
 lib/
 pip-selfcheck.json
+.py[cod]
