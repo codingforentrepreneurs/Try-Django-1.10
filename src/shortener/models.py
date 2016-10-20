@@ -1,6 +1,8 @@
 from django.conf import settings
 from django.db import models
 
+#from django.core.urlresolvers import reverse
+from django_hosts.resolvers import reverse
 # Create your models here.
 from .utils import code_generator, create_shortcode
 from .validators import validate_url, validate_dot_com
@@ -33,22 +35,14 @@ class KirrURL(models.Model):
     updated     = models.DateTimeField(auto_now=True) #everytime the model is saved
     timestamp   = models.DateTimeField(auto_now_add=True) #when model was created
     active      = models.BooleanField(default=True)
-    #empty_datetime = models.DateTimeField(auto_now=False, auto_now_add=False)
-    #shortcode = models.CharField(max_length=15, null=True) Empty in database is okay
-    #shortcode = models.CharField(max_length=15, default='cfedefaultshortcode')
+
     objects = KirrURLManager()
-    #some_random = KirrURLManager()
+ 
 
     def save(self, *args, **kwargs):
         if self.shortcode is None or self.shortcode == "":
             self.shortcode = create_shortcode(self)
         super(KirrURL, self).save(*args, **kwargs)
-
-    # class Meta:
-    #     ordering = '-id'
-
-    # def my_save(self):
-    #     self.save()
 
     def __str__(self):
         return str(self.url)
@@ -56,11 +50,15 @@ class KirrURL(models.Model):
     def __unicode__(self):
         return str(self.url)
 
+    def get_short_url(self):
+        url_path = reverse("scode", kwargs={'shortcode': self.shortcode}, host='www', scheme='http')
+        return url_path
 
 
-'''
-python manage.py makemigrations
-python manage.py migrate
 
-python manage.py createsuperuser
-'''
+
+
+
+
+
+
