@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_hosts',
 
     #custom app
+    'analytics',
     'shortener',
 ]
 
