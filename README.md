@@ -36,3 +36,30 @@ Team CFE
 [16 - Model Manager and Refresh Shortcodes](../../tree/a80716e8a684a769bbb5a5816ba4c1e9b6cf7c74)
 
 [17 - Custom Django Management Commands](../../tree/68363d8d54865625a52918da7fd7ccccb59c9351)
+
+[18 - CBV Views, FBV Views, and URLs](../../tree/0d9c6fd90256224e3c40631c54d6e2d399e2f4c8)
+
+[19 - Using Parameters from Django Settings](../../tree/d722a546c97253de8eed1b11627823041e5ba7cb)
+
+[20 - URL Keyword Arguments](../../tree/4997bb63215e00bacc77469042a59f0544671203)
+
+[21 - Query the Database with the Shortcode](../../tree/1f08748f818d12ed7dc42ca518e7d47248433e86)
+
+[22 - HttpResponse Redirect & URL Ordering](../../tree/7e8001091db2de6d1607208fa189919db3a1a060)
+
+23 - Locally Testing a Domain Name:
+
+```
+sudo nano /etc/hosts/
+
+# insert 
+
+127.0.0.1     tirr.com
+127.0.0.1     www.tirr.com
+127.0.0.1     blog.tirr.com
+```
+
+[24 - Using Django-Hosts for Subdomain Handling](../../tree/a8204b7763bb737babb4f6a2c59ab39e5d0d80f8)
+
+
+
