@@ -61,5 +61,15 @@ sudo nano /etc/hosts/
 
 [24 - Using Django-Hosts for Subdomain Handling](../../tree/a8204b7763bb737babb4f6a2c59ab39e5d0d80f8)
 
+[25 - Home View & In App Templates](../../tree/da8061f4c180ee7004172dec17989512b12273d8)
 
+[26 - HTML Form](../../tree/a7eda2691566cca6f0a62da2cd9e9c5f49c963c1)
+
+[27 - Django Forms](../../tree/5b86831bdf35ecd2c51268472448940c19185cd1)
+
+[28 - Form Validation & Custom Validators](../../tree/e449621bacaa935b2caabbde133c5f3360691c82)
+
+[29 - Rendering New Templates and Context](../../tree/089d1d31e70e95b3d7f1257f154e48a38747acd4)
+
+[30 - Reverse and Short Url](../../tree/e08f2442e41322cb254b486a036497d7c089c536)
 
