@@ -23,7 +23,7 @@ from shortener.views import kirr_redirect_view, KirrCBView
 # from another_app.views import views
 
 urlpatterns = [
-    url(r'^new-admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
     url(r'^a/(?P<shortcode>[\w-]+)/$', kirr_redirect_view),
     url(r'^b/(?P<shortcode>[\w-]+)/$', KirrCBView.as_view()), #joincfe.com/projects/ python regex
 
