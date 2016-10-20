@@ -18,8 +18,16 @@ from django.contrib import admin
 
 from shortener.views import kirr_redirect_view, KirrCBView
 
+# DO NOT DO
+# from shortener import views
+# from another_app.views import views
+
 urlpatterns = [
     url(r'^new-admin/', admin.site.urls),
-    url(r'^view-1/$', kirr_redirect_view),
-    url(r'^view-2/$', KirrCBView.as_view()), #joincfe.com/projects/
+    url(r'^a/(?P<shortcode>[\w-]+)/$', kirr_redirect_view),
+    url(r'^b/(?P<shortcode>[\w-]+)/$', KirrCBView.as_view()), #joincfe.com/projects/ python regex
+
+    # DO NOT DO 
+    #url(r'^abc/$', 'shortener.views.kirr_redirect_view' ),
+    # url(r'^abc/$', views.kirr_redirect_view ),
 ]
