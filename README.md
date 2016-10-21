@@ -74,3 +74,5 @@ sudo nano /etc/hosts/
 [30 - Reverse and Short Url](../../tree/e08f2442e41322cb254b486a036497d7c089c536)
 
 [31 - Analytics App](../../tree/f30a3a6490758a8b553828c4460a85a095b931ed)
+
+[32 - Integrate Bootstrap](../../tree/ede729bd727232866dcadca25511f35799268748)
