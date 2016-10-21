@@ -6,6 +6,22 @@
     <title>Kirr.co | {% block title %} Shorten that url{% endblock title %}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="http://getbootstrap.com/examples/cover/cover.css" rel="stylesheet">
+    {% block styles %}
+    <style>
+    body {
+      background-color: #226268;
+
+    }
+
+    .btn-link {
+      color: #50dfec;
+      text-shadow: none;
+    }
+    .btn-link:hover {
+      color: #000000;
+    }
+    </style>
+    {% endblock styles %}
 </head>
 
 <body>
