@@ -1,9 +1,18 @@
-<div style='width: 800px; margin: 0 auto;'>
-    <h1>{{ title }}</h1>
+{% extends 'base.html' %}
 
-    <form method='POST' action='.'> {% csrf_token %}
-        <!-- <input name='url' type='text' placeholder='Shorten your URL like http://www.codingforentrepreneurs.com' /> -->
-        {{ form.as_p }}
-        <input type='submit' value='Shorten' >
-    </form>
-</div>
+{% block content %}
+
+<h1 class="cover-heading">{{ title }}</h1>
+    
+<p class="lead">
+     <div class='col-sm-6 col-sm-offset-3'> 
+                <form method='POST' action='.'> {% csrf_token %}
+                    <!-- <input name='url' type='text' placeholder='Shorten your URL like http://www.codingforentrepreneurs.com' /> -->
+                    {{ form.as_p }}
+                    <input class='btn btn-primary' type='submit' value='Shorten' >
+                </form>
+            </div>
+</p>
+
+
+{% endblock content %}
