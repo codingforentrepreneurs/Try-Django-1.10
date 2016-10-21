@@ -1,6 +1,6 @@
-# Try Django 1.10
+![Try Django 1.10 Logo](https://cfe-static.s3.amazonaws.com/media/try-django-110/images/try_django_110.png)
 
-*COMING SOON*
+# Try Django 1.10
 
 Try Django 1.10 is an introduction to Django version 1.10 by creating a URL shortening service. This series covers a variety of Django basics as well as Django 1.10 specific material. Created by Team CFE @ http://joincfe.com.
 
