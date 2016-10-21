@@ -81,4 +81,5 @@ sudo nano /etc/hosts/
 
 [34 - Project Clean Up Part 2](../../tree/0dbb3b0eee655981ed642c8626bdb66da3c075a4)
 
+[35-39 - Heroku & Going Live](../../tree/313b758113e5cdc8cd94beea7126eb05ed95294d)
 
