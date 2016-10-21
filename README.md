@@ -76,3 +76,9 @@ sudo nano /etc/hosts/
 [31 - Analytics App](../../tree/f30a3a6490758a8b553828c4460a85a095b931ed)
 
 [32 - Integrate Bootstrap](../../tree/ede729bd727232866dcadca25511f35799268748)
+
+[33 - Project Clean Up Part 1](../../tree/e6a68ff77edf73dbed6b05c7589a2d79c73f2538)
+
+[34 - Project Clean Up Part 2](../../tree/0dbb3b0eee655981ed642c8626bdb66da3c075a4)
+
+
