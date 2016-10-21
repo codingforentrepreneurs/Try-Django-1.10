@@ -4,6 +4,110 @@
 		"selected_items":
 		[
 			[
+				"reg",
+				"reg_val"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"Cli",
+				"ClickEvent"
+			],
+			[
+				"C",
+				"ClickEvent"
+			],
+			[
+				"value",
+				"value_1_invalid"
+			],
+			[
+				"valu",
+				"value_1"
+			],
+			[
+				"va",
+				"validators"
+			],
+			[
+				"url",
+				"url_validator"
+			],
+			[
+				"clean",
+				"cleaned_data"
+			],
+			[
+				"Sub",
+				"SubmitUrlForm"
+			],
+			[
+				"UL",
+				"URLValidator"
+			],
+			[
+				"pat",
+				"patterns"
+			],
+			[
+				"Ht",
+				"HttpResponse"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"obj",
+				"obj_url"
+			],
+			[
+				"k",
+				"kwargs"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"kirr",
+				"kirr_redirect_view"
+			],
+			[
+				"Kir",
+				"KirrURL"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"s",
+				"shortcode"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"aut",
+				"auto_now_add"
+			],
+			[
+				"ch",
+				"chars"
+			],
+			[
 				"file",
 				"filename"
 			],
@@ -136,10 +240,6 @@
 				"parent_id"
 			],
 			[
-				"Ht",
-				"HttpResponseRedirect"
-			],
-			[
 				"obje",
 				"objects"
 			],
@@ -158,10 +258,6 @@
 			[
 				"cle",
 				"clean_parent_id"
-			],
-			[
-				"obj",
-				"obj_id"
 			],
 			[
 				"COmm",
@@ -320,10 +416,6 @@
 				"width"
 			],
 			[
-				"ran",
-				"random_products"
-			],
-			[
 				"po",
 				"products"
 			],
@@ -364,10 +456,6 @@
 				"tags_list"
 			],
 			[
-				"in",
-				"initial"
-			],
-			[
 				"hd_",
 				"hd_max"
 			],
@@ -400,10 +488,6 @@
 				"HttpResponse"
 			],
 			[
-				"url",
-				"urlpatterns"
-			],
-			[
 				"des",
 				"decorators"
 			],
@@ -430,113 +514,16 @@
 			[
 				"mu",
 				"MultiSlugMixin"
-			],
-			[
-				"Product",
-				"ProductDetailView"
-			],
-			[
-				"ht",
-				"Http404"
-			],
-			[
-				"de",
-				"description"
-			],
-			[
-				"object",
-				"object_id"
-			],
-			[
-				"option",
-				"option1"
-			],
-			[
-				"var",
-				"variation"
-			],
-			[
-				"cat",
-				"categories"
-			],
-			[
-				"cateo",
-				"category"
-			],
-			[
-				"mod",
-				"models"
-			],
-			[
-				"order",
-				"order_id"
-			],
-			[
-				"cus",
-				"customer_id〔variable〕"
-			],
-			[
-				"user_",
-				"user_check_id"
-			],
-			[
-				"user",
-				"user_checkout〔variable〕"
-			],
-			[
-				"custo",
-				"customer_id"
-			],
-			[
-				"User",
-				"UserCheckout〔module〕"
-			],
-			[
-				"user_check",
-				"user_checkout_id"
-			],
-			[
-				"bra",
-				"braintree_id"
-			],
-			[
-				"dec",
-				"decorators〔module〕"
-			],
-			[
-				"Or",
-				"OrderList〔class〕"
-			],
-			[
-				"bill",
-				"billing_address〔variable〕"
-			],
-			[
-				"bi",
-				"billing_address"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 287.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -572,10 +559,7 @@
 	},
 	"console":
 	{
-		"height": 125.0,
-		"history":
-		[
-		]
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -586,12 +570,39 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/cfe/Desktop/trydjango110"
-	],
 	"file_history":
 	[
+		"/Users/cfe/Desktop/trydjango110/src/templates/500.html",
+		"/Users/cfe/Desktop/trydjango110/src/templates/404.html",
+		"/Users/cfe/Desktop/trydjango110/src/kirr/settings.py",
+		"/Users/cfe/Desktop/trydjango110/src/analytics/admin.py",
+		"/Users/cfe/Desktop/trydjango110/src/kirr/urls.py",
+		"/Users/cfe/Desktop/trydjango110/src/analytics/models.py",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/templates/shortener/success.html",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/templates/shortener/already-exists.html",
+		"/Users/cfe/Desktop/trydjango110/src/templates/base.html",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/templates/shortener/home.html",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/views.py",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/models.py",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/forms.py",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/validators.py",
+		"/Users/cfe/Desktop/trydjango110/README.md",
+		"/Users/cfe/Desktop/trydjango110/LICENSE",
+		"/Users/cfe/Desktop/trydjango110/src/templates/shortener/home.html",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/admin.py",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/utils.py",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/management/commands/refreshcodes.py",
+		"/Users/cfe/Desktop/trydjango110/src/kirr/hostsconf/views.py",
+		"/Users/cfe/Desktop/trydjango110/src/kirr/hostsconf/urls.py",
+		"/Users/cfe/Desktop/trydjango110/src/kirr/hosts.py",
+		"/Users/cfe/Desktop/trydjango110/src/kirr/hostscf/views.py",
+		"/Users/cfe/Desktop/trydjango110/src/kirr/hostscf/urls.py",
+		"/Users/cfe/Desktop/trydjango110/src/kirr/hostsconf/__init__.py",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/management/commands/__init__.py",
+		"/Users/cfe/Desktop/trydjango110/src/shortener/management/__init__.py",
+		"/Users/cfe/Desktop/trydjango110/.gitignore",
+		"/Users/cfe/Desktop/trydjango110/readme.md",
+		"/Users/cfe/Desktop/trydjango110/src/db.sqlite3",
 		"/Users/cfe/Desktop/tweetup/src/tweet_it_up.py",
 		"/Users/cfe/Desktop/tryangular/src/js/app/app.module.js",
 		"/Users/cfe/Desktop/tryangular/src/js/app/app.config.js",
@@ -688,38 +699,7 @@
 		"/Users/jmitch/Desktop/dm/src/tags/views.py",
 		"/Users/jmitch/Desktop/dm/src/CRUD.md",
 		"/Users/jmitch/Desktop/dm/src/templates/dashboard.html",
-		"/Users/jmitch/Desktop/dm/src/templates/list_view.html",
-		"/Users/jmitch/Desktop/dm/src/analytics/admin.py",
-		"/Users/jmitch/Desktop/dm/src/products/templatetags/get_thumbnail.py",
-		"/Users/jmitch/Desktop/dm/src/tags/models.py",
-		"/Users/jmitch/Desktop/dm/src/tags/admin.py",
-		"/Users/jmitch/Desktop/dm/src/tags/urls.py",
-		"/Users/jmitch/Desktop/dm/src/templates/tags/tag_list.html",
-		"/Users/jmitch/Desktop/dm/src/products/templatetags/__init__.py",
-		"/Users/jmitch/Desktop/dm/static_cdn/protected/asdfasdf-22/Beach.jpg",
-		"/Users/jmitch/Desktop/dm/static_cdn/protected/asdfasdf-22/Beach_UqwGJez.jpg",
-		"/Users/jmitch/Desktop/dm/src/static/css/base.css",
-		"/Users/jmitch/Desktop/dm/static_cdn/media/jmitch/base.css",
-		"/Users/jmitch/Desktop/dm/static_cdn/protected/23/Beach.jpg",
-		"/Users/jmitch/Desktop/dm/src/templates/update_view.html",
-		"/Users/jmitch/Desktop/dm/src/templates/create_view.html",
-		"/Users/jmitch/Desktop/dm/src/templates/detail_view.html",
-		"/Users/jmitch/Desktop/dm/src/products/migrations/0008_auto_20151117_2131.py",
-		"/Users/jmitch/Desktop/dm/.gitignore",
-		"/Users/jmitch/Desktop/dm/src/products/migrations/0003_product_description.py",
-		"/Users/jmitch/Desktop/dm/src/products/migrations/0001_initial.py",
-		"/Users/jmitch/Desktop/dm/src/products/migrations/0002_auto_20151114_2119.py",
-		"/Users/jmitch/Desktop/Guides/all/install_postgresql_windows.md",
-		"/Users/jmitch/Desktop/Guides/all/postgresql_and_django.md",
-		"/Users/jmitch/Desktop/Guides/README.md",
-		"/Users/jmitch/Desktop/newenv/newproject/newproject/settings.py",
-		"/Users/jmitch/Desktop/Guides/all/install_postgresql_mac_linux.MD",
-		"/Users/jmitch/Desktop/postgres.MD",
-		"/Users/jmitch/Desktop/Overview.md",
-		"/Users/jmitch/Desktop/ecommerce-2/src/carts/models.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/products.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/requirements.txt",
-		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders/order_list.html"
+		"/Users/jmitch/Desktop/dm/src/templates/list_view.html"
 	],
 	"find":
 	{
@@ -906,37 +886,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -975,8 +926,6 @@
 	{
 		"height": 136.0
 	},
-	"pinned_build_system": "",
-	"project": "trydjango-110.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -985,7 +934,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -998,32 +946,15 @@
 	"select_project":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
-	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"last_filter": "",
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 383.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": true
 }
