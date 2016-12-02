@@ -21,5 +21,5 @@ def create_shortcode(instance, size=SHORTCODE_MIN):
     Klass = instance.__class__
     qs_exists = Klass.objects.filter(shortcode=new_code).exists()
     if qs_exists:
-        return create_shortcode(size=size)
+        return create_shortcode(instance, size=size)
     return new_code
